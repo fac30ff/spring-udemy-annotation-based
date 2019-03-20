@@ -17,6 +17,6 @@ public class RandomFortuneService implements FortuneService {
 	@Override
 	public String getFortune() {
 		// TODO Auto-generated method stub
-		return data[random.nextInt(data.length)];
+		return this.data[random.nextInt(this.data.length)];
 	}
 }
